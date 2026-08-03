@@ -3,7 +3,7 @@ export const featuredProject = {
 
   category: "Java Full Stack Web Application",
 
-  image: "public/projects/login-page.png",
+  image: "/projects/login-page.png",
 
   github:
     "https://github.com/tarun010604/mess-bill-management-system",
