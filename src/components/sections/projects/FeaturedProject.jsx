@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import GlassCard from "../../ui/GlassCard";
 import { featuredProject } from "../../../data/projects";
+import { lazy } from "react";
 
 export default function FeaturedProject() {
   return (
@@ -28,6 +29,7 @@ export default function FeaturedProject() {
         <img
   src={featuredProject.image}
   alt={featuredProject.title}
+  loading="lazy"
   className="
     h-[450px]
     w-full

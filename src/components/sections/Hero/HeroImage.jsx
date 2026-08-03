@@ -5,6 +5,7 @@ import profile from "../../../assets/images/profile.png";
 import { FaJava, FaReact } from "react-icons/fa";
 import { SiSpringboot, SiMysql } from "react-icons/si";
 
+
 export default function HeroImage() {
   return (
     <div className="relative flex justify-center items-center">
@@ -118,6 +119,7 @@ transition-all
 duration-500
 hover:scale-[1.02]
 "
+loading="eager"
           />
 
           {/* Footer */}
