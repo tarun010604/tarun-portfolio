@@ -14,14 +14,14 @@ export default function ProjectsHeader() {
       </p>
 
       <h2 className="text-5xl font-bold mt-4">
-        Featured Project
+        Projects
       </h2>
 
-      <p className="mt-6 text-slate-400 max-w-3xl mx-auto">
-        A real-world Java Full Stack application showcasing backend
-        development, database design, authentication, payment workflow,
-        email integration and responsive user interface.
+      <p className="mt-6 max-w-3xl mx-auto text-slate-400">
+        A collection of projects showcasing my expertise in Java Full Stack
+        development, frontend development, and modern web application design.
       </p>
+
     </motion.div>
   );
 }
