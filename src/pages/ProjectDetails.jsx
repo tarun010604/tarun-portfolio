@@ -117,11 +117,19 @@ export default function ProjectDetails() {
 
             {/* Hero Image */}
 
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-[520px] object-cover"
-            />
+           <div className="w-full bg-black/20 flex justify-center">
+  <img
+    src={project.image}
+    alt={`${project.title} preview`}
+    className="
+      w-full
+      h-auto
+      max-h-[700px]
+      object-contain
+      block
+    "
+  />
+</div>
 
             <div className="p-10">
 
