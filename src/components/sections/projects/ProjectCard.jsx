@@ -15,11 +15,14 @@ export default function ProjectCard({ project }) {
       <GlassCard className="overflow-hidden h-full">
 
         {/* Project Image */}
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full h-64 object-cover"
-        />
+       {/* Project Image */}
+<div className="w-full aspect-video overflow-hidden bg-slate-950 flex items-center justify-center">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-contain"
+  />
+</div>
 
         <div className="p-8">
 
@@ -40,7 +43,6 @@ export default function ProjectCard({ project }) {
 
           {/* Technologies */}
           <div className="flex flex-wrap gap-2 mt-6">
-
             {project.technologies.map((tech) => (
               <span
                 key={tech}
@@ -49,7 +51,6 @@ export default function ProjectCard({ project }) {
                 {tech}
               </span>
             ))}
-
           </div>
 
           {/* Buttons */}

@@ -54,51 +54,59 @@ export const projects = [{
     "Applied Authentication & Session Management",
   ],
 },
-{
-   id: "portfolio",
 
-    title: "Personal Portfolio Website",
+   {
+  id: "amazon-clone",
 
-    category: "Frontend Web Application",
+  title: "Amazon E-Commerce Clone",
 
-    image:"/projects/portfolio-home.png",
+  category: "Frontend Web Application",
 
-    github:
-      "https://github.com/tarun010604/tarun-portfolio",
+  image: "/projects/amazon-clone.png",
 
-    live:
-      "https://tarun-portfolio-ten-navy.vercel.app",
+  github:
+    "https://github.com/tarun010604/amazon-clone",
 
-    shortDescription:
-      "Responsive portfolio website showcasing projects, skills, internship experience, and contact information.",
+  live:
+    "https://amazon-clone-tarun-m-r.vercel.app/amazon.html",
 
-    overview:
-      "A modern portfolio website developed using React.js to present projects, technical skills, internship experience, and professional profile.",
+  shortDescription:
+    "Responsive Amazon-inspired e-commerce application with product browsing, cart management, checkout, orders, and order tracking.",
 
-    features: [
-      "Responsive Design",
-      "Modern UI",
-      "Project Showcase",
-      "Resume Download",
-      "Contact Section",
-    ],
+  overview:
+    "A responsive Amazon-inspired e-commerce web application built using HTML, CSS, and JavaScript. The project demonstrates DOM manipulation, ES6 modules, REST API integration, LocalStorage, cart management, checkout, order history, and order tracking.",
 
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React.js",
-      "Vite",
-      "Framer Motion"
-    ],
+  features: [
+    "Dynamic Product Listing",
+    "Product Search",
+    "Shopping Cart",
+    "Checkout & Order Summary",
+    "Order History",
+    "Order Tracking",
+    "LocalStorage Data Management",
+    "Responsive Design",
+  ],
 
-    learning: [
-      "Built reusable React components",
-      "Designed responsive layouts",
-      "Deployed using Vercel",
-      "Managed source code using Git",
-    ],
-  },
+  technologies: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "ES6 Modules",
+    "REST APIs",
+    "LocalStorage",
+    "Day.js",
+    "Git & GitHub",
+    "GitHub Pages",
+  ],
 
+  learning: [
+    "Built a complete frontend e-commerce application",
+    "Implemented DOM manipulation and ES6 modules",
+    "Integrated REST APIs",
+    "Implemented cart and order management using LocalStorage",
+    "Created checkout and order tracking functionality",
+    "Deployed the application using GitHub Pages",
+  ],
+},
 
 ]
