@@ -10,5 +10,5 @@ export const contact = {
   linkedin: "https://www.linkedin.com/in/tarun-mr/",
   leetcode: "https://leetcode.com/u/Tarun010604/",
 
-  resume: "/resume/Tarun__Resume.pdf",
+  resume: "/resume/Tarun_CV.pdf",
 };
