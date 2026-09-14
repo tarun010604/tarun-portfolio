@@ -30,7 +30,7 @@ export default function HeroButtons() {
         rel="noopener noreferrer"
       >
         <Button primary={false}>
-          <span className="flex items-center gap-2">
+          <span  className="cursor-pointer flex items-center gap-2 ">
             <FaDownload className="text-sm" />
             Download Resume
           </span>

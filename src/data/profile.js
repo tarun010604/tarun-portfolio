@@ -16,7 +16,7 @@ export const profile = {
 
   github: "https://github.com/tarun010604",
 
-  linkedin: "www.linkedin.com/in/tarun-mr",
+  linkedin: "https://www.linkedin.com/in/tarun-mr/",
 
   leetcode: "https://leetcode.com/u/Tarun010604/",
 
